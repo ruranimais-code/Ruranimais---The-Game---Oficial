@@ -1,5 +1,9 @@
 # 🐾 Ruranimais - The Game
 
+<p align="center">
+  <img src="docs/screenshots/menu.jpeg" alt="Menu principal do Ruranimais - The Game" width="700">
+</p>
+
 Um jogo de corrida infinita desenvolvido em Python com a biblioteca PyGame. Escolha entre um gato ou um cachorro, corra por diferentes cenários, desvie de obstáculos, colete comidas e fuja de uma parede de fogo que se aproxima constantemente.
 
 As comidas coletadas durante as partidas são convertidas em moedas, que podem ser utilizadas para desbloquear novas skins na loja do jogo.
@@ -13,6 +17,16 @@ O **Ruranimais - The Game** é um jogo inspirado no gênero *Endless Runner*, no
 O projeto apresenta diferentes mecânicas de movimentação, animações, cenários progressivos, sistema de pontuação, conquistas e personalização dos personagens.
 
 O jogador pode escolher entre cães e gatos, cada um com diferentes aparências desbloqueáveis.
+
+<p align="center">
+  <img src="docs/screenshots/selecao.jpeg" alt="Tela de escolha do companheiro" width="700">
+</p>
+
+## 📸 Capturas de tela
+
+| Campus | Floresta |
+|---|---|
+| ![Gameplay no campus](docs/screenshots/gameplay_campus.jpeg) | ![Gameplay na floresta](docs/screenshots/gameplay_floresta.jpeg) |
 
 ## 🚀 Funcionalidades
 
@@ -47,14 +61,14 @@ ruranimais/
 │   ├── animais/
 │   │   ├── cachorro/
 │   │   └── gato/
-│   │
 │   ├── cenarios/
-│   │
 │   ├── objetos/
-│   │
 │   └── sons/
 │
 ├── arte_original/
+│
+├── docs/
+│   └── screenshots/
 │
 ├── tools/
 │   ├── gerar_pixelart.py
@@ -62,8 +76,6 @@ ruranimais/
 │   ├── preparar_animais.py
 │   ├── preparar_cenarios.py
 │   └── preparar_sprites.py
-│   
-│   
 │
 ├── assets.py
 ├── cenario.py
@@ -124,6 +136,18 @@ O jogo disponibiliza duas categorias de personagens, cada uma com cinco aparênc
 
 As skins podem ser desbloqueadas utilizando as moedas obtidas durante as partidas.
 
+| Loja de cachorros | Loja de gatos |
+|---|---|
+| ![Loja de skins de cachorro](docs/screenshots/loja_cachorros.jpeg) | ![Loja de skins de gato](docs/screenshots/loja_gatos.jpeg) |
+
+## 🏆 Conquistas
+
+O jogo conta com 16 conquistas, que envolvem distância percorrida, comidas coletadas, compra de skins e desafios especiais.
+
+<p align="center">
+  <img src="docs/screenshots/conquistas.jpeg" alt="Tela de conquistas" width="700">
+</p>
+
 ## 💾 Sistema de salvamento
 
 O progresso do jogador é armazenado automaticamente no arquivo `save.json`.
@@ -182,6 +206,7 @@ Essas ferramentas auxiliam no desenvolvimento e na manutenção dos recursos do 
 
 ---
 
-**Ruranimais - The Game** 🐾
-
-*Um projeto desenvolvido em Python utilizando PyGame.*
+<p align="center">
+  <b>Ruranimais - The Game</b> 🐾<br>
+  <i>Um projeto desenvolvido em Python utilizando PyGame.</i>
+</p>
