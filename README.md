@@ -91,20 +91,6 @@ ruranimais/
 └── README.md
 ```
 
-### 📌 Organização dos arquivos principais
-
-| Arquivo | Responsabilidade |
-|---|---|
-| `main.py` | Controla o funcionamento geral do jogo, os estados das telas, os eventos e o loop principal. |
-| `config.py` | Centraliza as configurações, teclas, velocidades, física, obstáculos e parâmetros do jogo. |
-| `logica.py` | Gerencia as regras da partida, movimentação, colisões, obstáculos e coleta de comidas. |
-| `mundo.py` | Responsável pela representação visual do mundo, personagens, obstáculos, fogo e efeitos. |
-| `cenario.py` | Controla a geração dos cenários e suas transições. |
-| `telas.py` | Gerencia os menus, loja, seleção de personagens, HUD, conquistas, configurações e telas de pausa e fim. |
-| `estatisticas.py` | Gerencia recordes, moedas, skins, estatísticas e conquistas, salvando os dados em JSON. |
-| `skins.py` | Armazena o catálogo de personagens e suas respectivas skins e preços. |
-| `assets.py` | Responsável pelo carregamento de imagens, animações e sons. |
-
 ## 🕹️ Como jogar
 
 O personagem corre automaticamente. O objetivo é sobreviver, desviar dos obstáculos e coletar o máximo de comidas possível.
@@ -124,8 +110,6 @@ O personagem corre automaticamente. O objetivo é sobreviver, desviar dos obstá
 
 ## 🐶 Personagens e skins
 
-O jogo disponibiliza duas categorias de personagens, cada uma com cinco aparências diferentes.
-
 | Cachorros | Gatos |
 |---|---|
 | Caramelo (inicial) | Gato Cinza (inicial) |
@@ -141,8 +125,6 @@ As skins podem ser desbloqueadas utilizando as moedas obtidas durante as partida
 | ![Loja de skins de cachorro](docs/screenshots/loja_cachorros.jpeg) | ![Loja de skins de gato](docs/screenshots/loja_gatos.jpeg) |
 
 ## 🏆 Conquistas
-
-O jogo conta com 16 conquistas, que envolvem distância percorrida, comidas coletadas, compra de skins e desafios especiais.
 
 <p align="center">
   <img src="docs/screenshots/conquistas.jpeg" alt="Tela de conquistas" width="700">
@@ -191,18 +173,6 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-
-## 🎨 Ferramentas auxiliares
-
-A pasta `tools/` reúne scripts utilizados durante o desenvolvimento do projeto, incluindo:
-
-- Geração de pixel art.
-- Criação de efeitos sonoros.
-- Preparação de animações dos personagens.
-- Preparação dos cenários.
-- Captura de imagens das telas do jogo.
-
-Essas ferramentas auxiliam no desenvolvimento e na manutenção dos recursos do jogo, mas não são necessárias para sua execução normal.
 
 ---
 
